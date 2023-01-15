@@ -24,7 +24,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "sofa/hookable": "v7.0.2",
+        "sofa/hookable": "dev-master",
         "illuminate/database": ">=5.5"
     },
     "require-dev": {
