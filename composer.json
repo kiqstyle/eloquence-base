@@ -24,7 +24,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "sofa/hookable": ">=5.5",
+        "sofa/hookable": ">=7.0.2",
         "illuminate/database": ">=5.5"
     },
     "require-dev": {
@@ -33,6 +33,12 @@
         "mockery/mockery": "^1.0",
         "friendsofphp/php-cs-fixer": "^2.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kiqstyle/hookable"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Sofa\\Eloquence\\": "src"
